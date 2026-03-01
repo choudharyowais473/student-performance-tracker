@@ -1,3 +1,9 @@
+"""
+Student Performance Tracker
+A command-line application to track, analyze, visualize,
+and predict student test performance using Machine Learning.
+Author: Your Name
+"""
 import json
 import bcrypt as pt
 import pandas as pd
