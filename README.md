@@ -1,21 +1,29 @@
-# Student Performance Tracker
+# Student Performance Analyzer (OOP + ML)
 
-A Python-based command-line application to track, analyze, visualize, and predict student test performance.
+A Python-based application to track, analyze, and predict student performance using Object-Oriented Programming and Machine Learning.
 
-## Features
-- Secure login and signup using bcrypt
-- Stores test data in JSON format
-- Performance comparison between tests
-- Graph visualization using Matplotlib
-- Linear Regression prediction based on last 4 tests
+## 🚀 Features
+- User Authentication (bcrypt)
+- Add & store test scores
+- Compare past vs latest performance
+- Graph visualization (matplotlib)
+- Predict next test scores using Linear Regression
+- Clean OOP architecture
 
-## Tech Stack
-Python, Pandas, NumPy, Scikit-learn, Matplotlib, bcrypt
+## 🧱 Project Structure
+- UserManager → Handles login/signup
+- DataManager → Manages user data
+- Analyzer → Performs analysis, graphs, ML prediction
+- StudentApp → Main application controller
 
-## How to Run
-1. Install dependencies:
-   pip install -r requirements.txt
+## 🛠 Tech Stack
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Matplotlib
+- bcrypt
 
-2. Run the program:
-   python main.py
-   
+## ▶️ How to Run
+```bash
+pip install -r requirements.txt
+python main.py
